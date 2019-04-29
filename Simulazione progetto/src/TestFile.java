@@ -9,7 +9,7 @@ public class TestFile {
 				+ "bd55cd57-4dd7-4d72-b182-de4f4b7de8c6/download/"
 				+ "ds339_territorioambiente_aree-verdi-zona-superficie_2014.csv");
 		
-		String path = new String(".//Aree_verdi.csv");
+		String path = new String(".\\Aree_verdi.csv");
 		
 		FileAccess file_1 = new FileAccess(link, path);
 		

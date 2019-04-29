@@ -46,7 +46,7 @@ public class Download implements Runnable{
 			
 		}
 		catch(IOException e) {
-			System.err.println("IO Exception");
+			System.err.println("Download IO Exception");
 		}
 	}
 	
